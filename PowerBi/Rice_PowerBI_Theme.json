@@ -1,0 +1,94 @@
+{
+  "name": "Paddy to P&L — Rice Economy",
+  "dataColors": [
+    "#1E4620", "#3E7B31", "#97BC62", "#D9A521", "#6E7A66",
+    "#B3462F", "#C9D8B6", "#2E6B4F", "#8C6D1F", "#4A5B44"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1C2419",
+  "foregroundNeutralSecondary": "#6E7A66",
+  "tableAccent": "#D9A521",
+  "good": "#3E7B31",
+  "neutral": "#D9A521",
+  "bad": "#B3462F",
+  "maximum": "#1E4620",
+  "center": "#97BC62",
+  "minimum": "#F2F5EE",
+  "textClasses": {
+    "title": { "fontFace": "Cambria", "fontSize": 15, "color": "#1E4620" },
+    "header": { "fontFace": "Cambria", "fontSize": 12, "color": "#1E4620" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 9, "color": "#1C2419" },
+    "callout": { "fontFace": "Cambria", "fontSize": 30, "color": "#1E4620" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#DCE3D6" } }, "radius": 6 }],
+        "visualHeader": [{ "show": false }],
+        "title": [{
+          "show": true,
+          "fontColor": { "solid": { "color": "#1E4620" } },
+          "fontFamily": "Cambria",
+          "fontSize": 11,
+          "alignment": "left"
+        }],
+        "categoryAxis": [{
+          "labelColor": { "solid": { "color": "#1C2419" } },
+          "fontSize": 9,
+          "gridlineShow": false
+        }],
+        "valueAxis": [{
+          "labelColor": { "solid": { "color": "#6E7A66" } },
+          "fontSize": 9,
+          "gridlineColor": { "solid": { "color": "#DCE3D6" } },
+          "gridlineThickness": 1
+        }],
+        "legend": [{
+          "show": true,
+          "position": "Top",
+          "labelColor": { "solid": { "color": "#1C2419" } },
+          "fontSize": 9
+        }],
+        "labels": [{
+          "color": { "solid": { "color": "#1C2419" } },
+          "fontSize": 9
+        }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": { "solid": { "color": "#1E4620" } }, "fontSize": 26, "fontFamily": "Cambria" }],
+        "categoryLabels": [{ "color": { "solid": { "color": "#6E7A66" } }, "fontSize": 9 }],
+        "background": [{ "show": true, "color": { "solid": { "color": "#F2F5EE" } } }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } } }],
+        "header": [{ "fontColor": { "solid": { "color": "#1E4620" } }, "fontSize": 9 }],
+        "items": [{ "fontColor": { "solid": { "color": "#1C2419" } }, "fontSize": 9 }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [{ "gridVerticalColor": { "solid": { "color": "#DCE3D6" } }, "gridHorizontalColor": { "solid": { "color": "#DCE3D6" } } }],
+        "columnHeaders": [{ "fontColor": { "solid": { "color": "#FFFFFF" } }, "backColor": { "solid": { "color": "#1E4620" } }, "fontSize": 9 }],
+        "values": [{ "fontColor": { "solid": { "color": "#1C2419" } }, "fontSize": 9 }]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "columnHeaders": [{ "fontColor": { "solid": { "color": "#FFFFFF" } }, "backColor": { "solid": { "color": "#1E4620" } }, "fontSize": 9 }],
+        "rowHeaders": [{ "fontColor": { "solid": { "color": "#1C2419" } }, "fontSize": 9 }],
+        "values": [{ "fontColor": { "solid": { "color": "#1C2419" } }, "fontSize": 9 }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#F2F5EE" } } }]
+      }
+    }
+  }
+}
